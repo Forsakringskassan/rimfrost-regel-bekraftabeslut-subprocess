@@ -1,1 +1,1 @@
-# rimfrost-regel-bekraftabeslut-subprocess
+# rimfrost-regel-rtf-manuell-subprocess
