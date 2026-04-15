@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 0.0.3 (2026-04-15)
+
+### Bug Fixes
+
+-  incorrect path to Regelservice ([50619](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/5061986678d04ee) Nils Elveros)  
+
 ## 0.0.2 (2026-04-15)
 
 ### Bug Fixes
