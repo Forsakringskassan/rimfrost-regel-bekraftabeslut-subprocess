@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 0.0.2 (2026-04-15)
+
+### Bug Fixes
+
+-  fixed incorrect id ([45e6b](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/45e6bd9aa5a131f) Nils Elveros)  
+
 ## 0.0.1 (2026-04-14)
 
 ### Bug Fixes
