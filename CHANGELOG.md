@@ -2,6 +2,20 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.0.0 (2026-04-28)
+
+### Breaking changes
+
+-  release 1.0 ([989c7](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/989c7d42df4109d) Nils Elveros)  
+
+### Features
+
+-  release 1.0 ([989c7](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/989c7d42df4109d) Nils Elveros)  
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.rimfrost.framework.regel:rimfrost-framework-regel-asyncapi to v0.0.5 ([70c19](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/70c1979be145ad6) renovate[bot])  
+
 ## 0.0.3 (2026-04-15)
 
 ### Bug Fixes
