@@ -2,6 +2,16 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.0 (2026-05-18)
+
+### Other changes
+
+**feat/FKPOC-773: update bekraftabeslut-subprocess to return RegelProcessResult and add rimfrost-framework-process dependency**
+
+
+[c0cf8](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/c0cf809a390a450) Jorgen Lindstrom *2026-05-13 12:17:19*
+
+
 ## 1.0.0 (2026-04-28)
 
 ### Breaking changes
