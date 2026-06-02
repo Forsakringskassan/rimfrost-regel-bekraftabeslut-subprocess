@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.3 (2026-06-02)
+
+### Bug Fixes
+
+-  bump versions ([80934](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/8093413a938ef00) Nils Elveros)  
+
 ## 1.1.2 (2026-06-02)
 
 ### Bug Fixes
