@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.5 (2026-06-15)
+
+### Bug Fixes
+
+-  add response topic prop ([6bc0e](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/6bc0efc20bd505c) Nils Elveros)  
+
 ## 1.1.4 (2026-06-10)
 
 ### Bug Fixes
