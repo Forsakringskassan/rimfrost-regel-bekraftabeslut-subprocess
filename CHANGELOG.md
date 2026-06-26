@@ -2,6 +2,13 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.6 (2026-06-26)
+
+### Bug Fixes
+
+-  use result instead of throw ([febf8](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/febf857a72d09e4) Nils Elveros)  
+-  add retry and timeout ([5d3fd](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/5d3fdf9ad7e525a) Nils Elveros)  
+
 ## 1.1.5 (2026-06-15)
 
 ### Bug Fixes
