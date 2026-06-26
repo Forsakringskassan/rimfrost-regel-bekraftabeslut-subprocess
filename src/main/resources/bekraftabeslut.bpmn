@@ -90,15 +90,14 @@
     </bpmn2:endEvent>
     <bpmn2:endEvent id="_143CAC07-C786-4D82-A88B-D6035116145E">
       <bpmn2:incoming>_8E1AE177-7C6A-47D7-9A44-E8FCC8B80656</bpmn2:incoming>
-      <bpmn2:dataInput id="_143CAC07_errorInputX" name="error" drools:dtype="se.fk.rimfrost.framework.regel.RegelErrorInformation" itemSubjectRef="_54C2796E-663B-4E54-A6E9-BC6AB0D031C7" />
-      <bpmn2:dataInputAssociation>
-        <bpmn2:sourceRef>errorInfo</bpmn2:sourceRef>
-        <bpmn2:targetRef>_143CAC07_errorInputX</bpmn2:targetRef>
+      <bpmn2:dataInput id="_245C4D3C-3B0C-4FAC-9E9D-B01FA95287F7" name="result" drools:dtype="se.fk.rimfrost.framework.process.RegelProcessResult" itemSubjectRef="__EB1970E1-7AA3-44EC-98B2-981698344C2A_resultOutputXItem" />
+      <bpmn2:dataInputAssociation id="_C783E98E-A54A-44E9-B593-9B6F22C86DC5">
+        <bpmn2:sourceRef>result</bpmn2:sourceRef>
+        <bpmn2:targetRef>_245C4D3C-3B0C-4FAC-9E9D-B01FA95287F7</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
       <bpmn2:inputSet>
         <bpmn2:dataInputRefs>_143CAC07_errorInputX</bpmn2:dataInputRefs>
       </bpmn2:inputSet>
-      <bpmn2:errorEventDefinition id="_4CC6F3ED-58A7-4924-8E34-7F6803FD1F48" errorRef="_6F3C781A-3E1A-437D-AC2C-38A7F38914F2" drools:erefname="REGEL_ERROR" />
     </bpmn2:endEvent>
     <bpmn2:exclusiveGateway id="_E70FD429-AA51-404D-B9ED-6B031768AC58" gatewayDirection="Converging" default="_EEF8A4B4-92B0-440A-862D-3C7BD005EE03">
       <bpmn2:incoming>_4F391B75-17B0-41CC-9FE2-22787F132361</bpmn2:incoming>
@@ -227,29 +226,29 @@
       <bpmn2:incoming>_F25C9C2A-EC95-4107-8A38-A3F51A3A8D32</bpmn2:incoming>
       <bpmn2:outgoing>_9B40CF46-D34D-4393-8AE2-FC91C549C991</bpmn2:outgoing>
       <bpmn2:outgoing>_A8622169-DEF0-4B4B-A02D-6B9A2531F7F9</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_F88FE9EF-7BB7-474D-BF56-5A3024D11041">
-        <bpmn2:dataInput id="_D2D4F1EF-05FC-4EBB-AF27-80EE8EBB8265" name="handlaggningId" drools:dtype="String" itemSubjectRef="__428739B8-C962-4EBE-A16B-6E2B5133D50B_aktivitetIdInputXItem" />
-        <bpmn2:dataInput id="_6D5DD2C1-873B-4FBF-871E-0416E86A0617" name="response" drools:dtype="se.fk.rimfrost.framework.regel.RegelResponseMessagePayloadData" itemSubjectRef="bekraftabeslut-responsesType" />
-        <bpmn2:dataOutput name="errorInfo" id="_5E43851A-4E41-4831-8CA4-072060456148" drools:dtype="se.fk.rimfrost.framework.regel.RegelErrorInformation" itemSubjectRef="_54C2796E-663B-4E54-A6E9-BC6AB0D031C7" />
-        <bpmn2:inputSet id="_9A2EE96A-F7AC-40BE-9BBE-A3A63C88A2CE">
-          <bpmn2:dataInputRefs>_D2D4F1EF-05FC-4EBB-AF27-80EE8EBB8265</bpmn2:dataInputRefs>
-          <bpmn2:dataInputRefs>_6D5DD2C1-873B-4FBF-871E-0416E86A0617</bpmn2:dataInputRefs>
+      <bpmn2:ioSpecification id="_FC9848AF-A8D7-444F-8D5C-71BCC8194BA8">
+        <bpmn2:dataInput id="_25088ADC-2E0C-4CEF-85EB-F0613FC517E2" name="handlaggningId" drools:dtype="String" itemSubjectRef="__428739B8-C962-4EBE-A16B-6E2B5133D50B_aktivitetIdInputXItem" />
+        <bpmn2:dataInput id="_B46749C2-9556-4D85-8497-22204F845A2E" name="response" drools:dtype="se.fk.rimfrost.framework.regel.RegelResponseMessagePayloadData" itemSubjectRef="bekraftabeslut-responsesType" />
+        <bpmn2:dataOutput name="result" id="_63ED6EFD-BA60-4F76-8F1D-34DBC1139EB4" drools:dtype="se.fk.rimfrost.framework.process.RegelProcessResult" itemSubjectRef="__EB1970E1-7AA3-44EC-98B2-981698344C2A_resultOutputXItem" />
+        <bpmn2:inputSet id="_3EDA2566-F7EA-40A7-96F2-AD080ABF9BCF">
+          <bpmn2:dataInputRefs>_25088ADC-2E0C-4CEF-85EB-F0613FC517E2</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_B46749C2-9556-4D85-8497-22204F845A2E</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_C7BB9DC4-C345-467F-81BA-6F46CC891FF0">
-          <bpmn2:dataOutputRefs>_5E43851A-4E41-4831-8CA4-072060456148</bpmn2:dataOutputRefs>
+        <bpmn2:outputSet id="_6606F82D-6AD9-4437-A533-E99FFBC4E692">
+          <bpmn2:dataOutputRefs>_63ED6EFD-BA60-4F76-8F1D-34DBC1139EB4</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_35DC8A3E-618C-49B1-BEEA-3DFCDA308214">
+      <bpmn2:dataInputAssociation id="_CF43377B-A85F-457C-8056-89F8459474C6">
         <bpmn2:sourceRef>handlaggningId</bpmn2:sourceRef>
-        <bpmn2:targetRef>_D2D4F1EF-05FC-4EBB-AF27-80EE8EBB8265</bpmn2:targetRef>
+        <bpmn2:targetRef>_25088ADC-2E0C-4CEF-85EB-F0613FC517E2</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_F29FFA07-A3DE-4537-8AE0-C94F1AA47892">
+      <bpmn2:dataInputAssociation id="_6D5D4104-E66F-4F69-8789-F610B830F454">
         <bpmn2:sourceRef>response</bpmn2:sourceRef>
-        <bpmn2:targetRef>_6D5DD2C1-873B-4FBF-871E-0416E86A0617</bpmn2:targetRef>
+        <bpmn2:targetRef>_B46749C2-9556-4D85-8497-22204F845A2E</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_93D998D9-F1B6-46D7-A2DC-92DCC3BCB61F">
-        <bpmn2:sourceRef>_5E43851A-4E41-4831-8CA4-072060456148</bpmn2:sourceRef>
-        <bpmn2:targetRef>errorInfo</bpmn2:targetRef>
+      <bpmn2:dataOutputAssociation id="_5685688C-BEB8-4E2A-AD2C-8B4F9FF6648E">
+        <bpmn2:sourceRef>_63ED6EFD-BA60-4F76-8F1D-34DBC1139EB4</bpmn2:sourceRef>
+        <bpmn2:targetRef>result</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:serviceTask>
     <bpmn2:serviceTask id="_1BF95B99-8C1A-4709-BBD5-6F9FD83AC691" name="Handle timeout" drools:serviceinterface="se.fk.rimfrost.framework.process.RegelService" operationRef="_3A0116D3-93BF-4A2B-ADBA-8D20958D26EF" drools:serviceoperation="handleTimeout">
@@ -262,29 +261,29 @@
       <bpmn2:incoming>_0CB1DC58-3274-4B88-9109-D7FD5890F413</bpmn2:incoming>
       <bpmn2:outgoing>_2F740398-F84C-4C85-A1FE-9B770E5434A2</bpmn2:outgoing>
       <bpmn2:outgoing>_F1D74E15-E9A9-4249-8941-6D0C1A43DC96</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_8A4CCED2-49D7-410C-9DFD-937D1F4EA03C">
-        <bpmn2:dataInput id="_773BB240-E16C-4895-89F3-AAC9E5BC8116" name="handlaggningId" drools:dtype="String" itemSubjectRef="__428739B8-C962-4EBE-A16B-6E2B5133D50B_aktivitetIdInputXItem" />
-        <bpmn2:dataInput id="_20E0F286-D38F-4DD9-B7E6-E9ECC0B67FE5" name="request" drools:dtype="se.fk.rimfrost.framework.regel.RegelRequestMessagePayloadData" itemSubjectRef="bekraftabeslut-requestsType" />
-        <bpmn2:dataOutput name="errorInfo" id="_842D45B5-896C-4544-95A8-8A62A5040474" drools:dtype="se.fk.rimfrost.framework.regel.RegelErrorInformation" itemSubjectRef="_54C2796E-663B-4E54-A6E9-BC6AB0D031C7" />
-        <bpmn2:inputSet id="_770E5A6D-B228-4409-BFF1-856580560890">
-          <bpmn2:dataInputRefs>_773BB240-E16C-4895-89F3-AAC9E5BC8116</bpmn2:dataInputRefs>
-          <bpmn2:dataInputRefs>_20E0F286-D38F-4DD9-B7E6-E9ECC0B67FE5</bpmn2:dataInputRefs>
+      <bpmn2:ioSpecification id="_D7990FCD-5E4E-43B9-850D-2B839F61AB2A">
+        <bpmn2:dataInput id="_5DFE1BDC-4FC6-41A1-94D8-DD59D3270816" name="handlaggningId" drools:dtype="String" itemSubjectRef="__428739B8-C962-4EBE-A16B-6E2B5133D50B_aktivitetIdInputXItem" />
+        <bpmn2:dataInput id="_A270E8F8-1AFD-4613-A2CD-DC9E1A3D6828" name="request" drools:dtype="se.fk.rimfrost.framework.regel.RegelRequestMessagePayloadData" itemSubjectRef="bekraftabeslut-requestsType" />
+        <bpmn2:dataOutput name="result" id="_0790391B-2A22-441C-9C25-EC6E3E149CF3" drools:dtype="se.fk.rimfrost.framework.process.RegelProcessResult" itemSubjectRef="__EB1970E1-7AA3-44EC-98B2-981698344C2A_resultOutputXItem" />
+        <bpmn2:inputSet id="_158C952D-40CF-46D2-85C1-D104D0B65C77">
+          <bpmn2:dataInputRefs>_5DFE1BDC-4FC6-41A1-94D8-DD59D3270816</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_A270E8F8-1AFD-4613-A2CD-DC9E1A3D6828</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_097705AE-7F8F-4DBC-B4E6-437556AD1294">
-          <bpmn2:dataOutputRefs>_842D45B5-896C-4544-95A8-8A62A5040474</bpmn2:dataOutputRefs>
+        <bpmn2:outputSet id="_8384C9B0-52D4-49CE-A13B-1648E1A96093">
+          <bpmn2:dataOutputRefs>_0790391B-2A22-441C-9C25-EC6E3E149CF3</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_A1495922-FA8F-4776-AE47-EA4B83F88774">
+      <bpmn2:dataInputAssociation id="_3680EEC4-B71A-4CF9-BB3E-61E4EDFEFF4F">
         <bpmn2:sourceRef>handlaggningId</bpmn2:sourceRef>
-        <bpmn2:targetRef>_773BB240-E16C-4895-89F3-AAC9E5BC8116</bpmn2:targetRef>
+        <bpmn2:targetRef>_5DFE1BDC-4FC6-41A1-94D8-DD59D3270816</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_BB327863-C52E-43E9-8F4A-D8951458850F">
+      <bpmn2:dataInputAssociation id="_59585040-320C-4540-819A-974AD2BC9E45">
         <bpmn2:sourceRef>request</bpmn2:sourceRef>
-        <bpmn2:targetRef>_20E0F286-D38F-4DD9-B7E6-E9ECC0B67FE5</bpmn2:targetRef>
+        <bpmn2:targetRef>_A270E8F8-1AFD-4613-A2CD-DC9E1A3D6828</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_218A1637-BB25-4CA6-867B-3571B384A598">
-        <bpmn2:sourceRef>_842D45B5-896C-4544-95A8-8A62A5040474</bpmn2:sourceRef>
-        <bpmn2:targetRef>errorInfo</bpmn2:targetRef>
+      <bpmn2:dataOutputAssociation id="_09D7145B-AC8B-4B23-8E55-6979CC56896B">
+        <bpmn2:sourceRef>_0790391B-2A22-441C-9C25-EC6E3E149CF3</bpmn2:sourceRef>
+        <bpmn2:targetRef>result</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:serviceTask>
     <bpmn2:intermediateThrowEvent id="_E496A906-CCA2-4DAD-8E76-D5F0E5FDB341">
