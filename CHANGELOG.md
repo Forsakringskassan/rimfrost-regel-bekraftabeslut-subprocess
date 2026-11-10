@@ -2,6 +2,25 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.9 (2026-11-10)
+
+### Bug Fixes
+
+-  update pom ([a6d81](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/a6d813453d7a2ea) Nils Elveros)  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to cbc0db8 ([0f1a7](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/0f1a70d88b1cf49) renovate[bot])  
+- update forsakringskassan/.github digest to 625efb1 ([f67ad](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/f67ad2e6e8f8ab2) renovate[bot])  
+### Other changes
+
+**Update pom.xml**
+
+* Co-authored-by: larpersso &lt;254442132+larpersso@users.noreply.github.com&gt; 
+
+[0f9d5](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/0f9d536bd69a765) NilsElveros *2026-11-10 07:58:22*
+
+
 ## 1.1.8 (2026-10-30)
 
 ### Bug Fixes
