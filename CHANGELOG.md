@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-regel-bekraftabeslut-subprocess.
 
+## 1.1.10 (2026-11-13)
+
+### Bug Fixes
+
+-  send oul cancel after timeout ([78887](https://github.com/Forsakringskassan/rimfrost-regel-bekraftabeslut-subprocess/commit/7888717734297ab) Nils Elveros)  
+
 ## 1.1.9 (2026-11-10)
 
 ### Bug Fixes
